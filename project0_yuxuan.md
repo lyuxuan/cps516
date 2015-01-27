@@ -872,133 +872,91 @@ References:
 
 http://en.wikipedia.org/wiki/Attivio
 
-<span class="Apple-converted-space"> 
-</span>http://www.itbusinessedge.com/blogs/it-unmasked/attivio-applies-predictive-analytics-to-indexed-data.html
+http://www.itbusinessedge.com/blogs/it-unmasked/attivio-applies-predictive-analytics-to-indexed-data.html
 
-<span class="Apple-converted-space"> 
-</span>http://arnoldit.com/wordpress/2010/11/02/attivio-upping-its-profile/
+http://arnoldit.com/wordpress/2010/11/02/attivio-upping-its-profile/
 
-<span class="Apple-converted-space"> 
-</span>http://www.techworld.com/news/security/attackers-install-ddos-bots-on-amazon-cloud-exploiting-elasticsearch-weakness-3533164/
+http://www.techworld.com/news/security/attackers-install-ddos-bots-on-amazon-cloud-exploiting-elasticsearch-weakness-3533164/
 
-<span class="Apple-converted-space"> 
-</span>http://db-engines.com/en/system/Elasticsearch
+http://db-engines.com/en/system/Elasticsearch
 
-<span class="Apple-converted-space"> 
-</span>http://en.wikipedia.org/wiki/HP\_Autonomy
+http://en.wikipedia.org/wiki/HP\_Autonomy
 
-<span class="Apple-converted-space"> 
-</span>http://www.autonomy.com/technology/
+http://www.autonomy.com/technology/
 
-<span class="Apple-converted-space"> 
-</span>http://lucene.apache.org/solr/features.html
+http://lucene.apache.org/solr/features.html
 
-<span class="Apple-converted-space"> 
-</span>http://en.wikipedia.org/wiki/Apache\_Solr
+http://en.wikipedia.org/wiki/Apache\_Solr
 
-<span class="Apple-converted-space"> 
-</span>https://docs.oracle.com/cd/E40521\_01/server.761/es\_dev/src/cdg\_interfaces\_mdex\_overview.html
+https://docs.oracle.com/cd/E40521\_01/server.761/es\_dev/src/cdg\_interfaces\_mdex\_overview.html
 
-<span class="Apple-converted-space"> 
-</span>http://srch2.com/releases/4.4.3/docs/
+http://srch2.com/releases/4.4.3/docs/
 
-<span class="Apple-converted-space"> 
-</span>http://incubator.apache.org/s4/doc/0.6.0/overview/
+http://incubator.apache.org/s4/doc/0.6.0/overview/
 
-<span class="Apple-converted-space"> 
-</span>http://www.quora.com/How-does-BackType-Twitter-Storm-compare-to-Yahoos-S4-and-IBMs-InfoSphere-Streams
+http://www.quora.com/How-does-BackType-Twitter-Storm-compare-to-Yahoos-S4-and-IBMs-InfoSphere-Streams
 
-<span class="Apple-converted-space"> 
-</span>http://venturebeat.com/2014/03/20/why-amazon-created-aws-kinesis-its-live-data-processing-service/
+http://venturebeat.com/2014/03/20/why-amazon-created-aws-kinesis-its-live-data-processing-service/
 
-<span class="Apple-converted-space"> 
-</span>https://www.datatorrent.com/product/features
+https://www.datatorrent.com/product/features
 
-<span class="Apple-converted-space"> 
-</span>http://www.forbes.com/sites/tomgroenfeldt/2014/02/03/feedzai-brings-machine-learning-and-data-science-to-payment-fraud/
+http://www.forbes.com/sites/tomgroenfeldt/2014/02/03/feedzai-brings-machine-learning-and-data-science-to-payment-fraud/
 
-<span class="Apple-converted-space"> 
-</span>https://cloud.google.com/dataflow/
+https://cloud.google.com/dataflow/
 
-<span class="Apple-converted-space"> 
-</span>http://www.guavus.com/products/
+http://www.guavus.com/products/
 
-<span class="Apple-converted-space"> 
-</span>http://www.slideshare.net/IBMInfoSphereUGFR/infosphere-streams-technical-overview-use-cases-big-data-jerome-chailloux
+http://www.slideshare.net/IBMInfoSphereUGFR/infosphere-streams-technical-overview-use-cases-big-data-jerome-chailloux
 
-<span class="Apple-converted-space"> 
-</span>http://blog.lokad.com/journal/2010/6/23/honored-by-the-windows-azure-partner-award-of-2010.html
+http://blog.lokad.com/journal/2010/6/23/honored-by-the-windows-azure-partner-award-of-2010.html
 
-<span class="Apple-converted-space"> 
-</span>http://www.softwareag.com/corporate/products/apama\_webmethods/analytics/overview/default.asp
+http://www.softwareag.com/corporate/products/apama\_webmethods/analytics/overview/default.asp
 
-<span class="Apple-converted-space"> 
-</span>http://en.wikipedia.org/wiki/Sqlstream
+http://en.wikipedia.org/wiki/Sqlstream
 
-<span class="Apple-converted-space"> 
-</span>http://www.streambase.com/news-and-events/press-releases/pr-2013/tibco-software-acquires-streambase-systems/
+http://www.streambase.com/news-and-events/press-releases/pr-2013/tibco-software-acquires-streambase-systems/
 
-<span class="Apple-converted-space"> 
-</span>https://www.jkoolcloud.com/wp-content/uploads/jKool-451ResearchGroup.pdf
+https://www.jkoolcloud.com/wp-content/uploads/jKool-451ResearchGroup.pdf
 
-<span class="Apple-converted-space"> 
-</span>http://www.semantikoz.com/blog/full-metal-hadoop-as-a-service-with-altiscale/
+http://www.semantikoz.com/blog/full-metal-hadoop-as-a-service-with-altiscale/
 
-<span class="Apple-converted-space"> 
-</span>https://metamarkets.com/2014/building-a-data-pipeline-that-handles-billions-of-events-in-real-time/
+https://metamarkets.com/2014/building-a-data-pipeline-that-handles-billions-of-events-in-real-time/
 
-<span class="Apple-converted-space"> 
-</span>https://gigaom.com/2012/11/28/mortar-data-wants-to-become-a-hadoop-developers-best-friend/
+https://gigaom.com/2012/11/28/mortar-data-wants-to-become-a-hadoop-developers-best-friend/
 
-<span class="Apple-converted-space"> 
-</span>http://www.scriptrock.com/articles/azure-vs-rackspace
+http://www.scriptrock.com/articles/azure-vs-rackspace
 
-<span class="Apple-converted-space"> 
-</span>http://www.ibm.com/cloud-computing/us/en/iaas.html
+http://www.ibm.com/cloud-computing/us/en/iaas.html
 
-<span class="Apple-converted-space"> 
-</span>http://www.telekom.com/media/enterprise-solutions/181200
+http://www.telekom.com/media/enterprise-solutions/181200
 
-<span class="Apple-converted-space"> 
-</span>http://www.verizon.com/about/news/verizon-adds-clouderas-cloudbased-big-data-analytics-solution-verizon-cloud-ecosystem/
+http://www.verizon.com/about/news/verizon-adds-clouderas-cloudbased-big-data-analytics-solution-verizon-cloud-ecosystem/
 
-<span class="Apple-converted-space"> 
-</span>https://devcenter.heroku.com/articles/xplenty
+https://devcenter.heroku.com/articles/xplenty
 
-<span class="Apple-converted-space"> 
-</span>http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-what-is-emr.html
+http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-what-is-emr.html
 
-<span class="Apple-converted-space"> 
-</span>https://cloud.google.com/why-google/
+https://cloud.google.com/why-google/
 
-<span class="Apple-converted-space"> 
-</span>https://www.mapr.com/why-hadoop/why-mapr
+https://www.mapr.com/why-hadoop/why-mapr
 
-<span class="Apple-converted-space"> 
-</span>http://www.ipso-alliance.org/june-17-2014-treasure-data-catches-the-eyes-of-ad-tech-market-with-first-flexible-cloud-data-service-2
+http://www.ipso-alliance.org/june-17-2014-treasure-data-catches-the-eyes-of-ad-tech-market-with-first-flexible-cloud-data-service-2
 
-<span class="Apple-converted-space"> 
-</span>http://www.zettaset.com/index.php/solutions/secure-enrterprise-hadoop/
+http://www.zettaset.com/index.php/solutions/secure-enrterprise-hadoop/
 
-<span class="Apple-converted-space"> 
-</span>http://www.cloudera.com/content/cloudera/en/products-and-services/cloudera-enterprise.html
+http://www.cloudera.com/content/cloudera/en/products-and-services/cloudera-enterprise.html
 
-<span class="Apple-converted-space"> 
-</span>https://spark.apache.org/faq.html
+https://spark.apache.org/faq.html
 
-<span class="Apple-converted-space"> 
-</span>http://www-01.ibm.com/software/data/infosphere/biginsights/quick-start/
+http://www-01.ibm.com/software/data/infosphere/biginsights/quick-start/
 
-<span class="Apple-converted-space"> 
-</span>http://www.metascale.com/what-we-offer.html\#.VMbvoXDF\_XE
+http://www.metascale.com/what-we-offer.html\#.VMbvoXDF\_XE
 
-<span class="Apple-converted-space"> 
-</span>http://azure.microsoft.com/en-us/services/hdinsight/
+http://azure.microsoft.com/en-us/services/hdinsight/
 
-<span class="Apple-converted-space"> 
-</span>https://www.oracle.com/engineered-systems/big-data-appliance/index.html
+https://www.oracle.com/engineered-systems/big-data-appliance/index.html
 
-<span class="Apple-converted-space">  </span>http://www.stratio.com/
+http://www.stratio.com/
 
 \
 
