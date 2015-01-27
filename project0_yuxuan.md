@@ -21,11 +21,7 @@
 |                    |                    |     search Query   |                    |
 |                    |                    |     and SQL        |                    |
 |                    |                    | -   Easy to        |                    |
-|                    |                    |     distribute<spa |                    |
-|                    |                    | n                  |                    |
-|                    |                    |     class="Apple-c |                    |
-|                    |                    | onverted-space"> < |                    |
-|                    |                    | /span>             |                    |
+|                    |                    |     distribute     |                    |
 +--------------------+--------------------+--------------------+--------------------+
 | \                  | Elasticsearch      | -   Search engine  | -   Doesn’t        |
 |                    |                    |     that supports  |     support SQL    |
@@ -54,11 +50,7 @@
 |                    |                    | -   Easy to scale  |     foreign key    |
 |                    |                    |     up and down    |                    |
 |                    |                    | -   Easy to        |                    |
-|                    |                    |     distribute<spa |                    |
-|                    |                    | n                  |                    |
-|                    |                    |     class="Apple-c |                    |
-|                    |                    | onverted-space"> < |                    |
-|                    |                    | /span>             |                    |
+|                    |                    |     distribute     |                    |
 |                    |                    | -   Great          |                    |
 |                    |                    |     fault-toleranc |                    |
 |                    |                    | e                  |                    |
@@ -93,11 +85,11 @@
 +--------------------+--------------------+--------------------+--------------------+
 | A2                 | Apache S4          | -   Real-time      | -   No guaranteed  |
 |                    |                    |     processing     |     message        |
-|                    |                    |     (continues     |     processing<spa |
-|                    |                    |     unbounded      | n                  |
-|                    |                    |     streams of     |     class="Apple-c |
-|                    |                    |     data)          | onverted-space"> < |
-|                    |                    | -   Distributed    | /span>             |
+|                    |                    |     (continues     |     processing     |
+|                    |                    |     unbounded      |                    |
+|                    |                    |     streams of     |                    |
+|                    |                    |     data)          |                    |
+|                    |                    | -   Distributed    |                    |
 |                    |                    |     and scalable   |                    |
 |                    |                    | -   Fault-tolerant |                    |
 |                    |                    | -   Pluggable      |                    |
@@ -188,10 +180,7 @@
 | \                  | TIBCO StreamBase   | -   Push-based     | -   Run in cloud   |
 |                    |                    |     real-time      |                    |
 |                    |                    |     Analytics      |                    |
-|                    |                    | -   Scalable<span  |                    |
-|                    |                    |     class="Apple-c |                    |
-|                    |                    | onverted-space"> < |                    |
-|                    |                    | /span>             |                    |
+|                    |                    | -   Scalable       |                    |
 +--------------------+--------------------+--------------------+--------------------+
 | A3                 | Altiscale          | -   Hadoop-as-a-se | -   Use            |
 |                    |                    | rvice              |     virtualization |
@@ -250,11 +239,7 @@
 |                    |                    |     deployment and |                    |
 |                    |                    |     maintenance    |                    |
 |                    |                    | -   Built on top   |                    |
-|                    |                    |     of             |                    |
-|                    |                    |     OpenStack<span |                    |
-|                    |                    |     class="Apple-c |                    |
-|                    |                    | onverted-space"> < |                    |
-|                    |                    | /span>             |                    |
+|                    |                    |     of OpenStack   |                    |
 +--------------------+--------------------+--------------------+--------------------+
 | \                  | Savvis             | -   Hadoop-based   | -   Use Cloudera   |
 |                    |                    | -   Infrastructure |                    |
@@ -347,28 +332,104 @@
 |                    |                    | ss                 |                    |
 |                    |                    |     Security       |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| A5                 | Cloudera           | \                  | \                  |
+| A5                 | Cloudera           | -   Provide        | \                  |
+|                    |                    |     enterprise     |                    |
+|                    |                    |     processing,    |                    |
+|                    |                    |     storage,       |                    |
+|                    |                    |     analysis       |                    |
+|                    |                    |     services in    |                    |
+|                    |                    |     one system     |                    |
+|                    |                    | -   Massive        |                    |
+|                    |                    |     scalable       |                    |
+|                    |                    | -   Hadoop-based   |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | Databricks/Spark   | \                  | \                  |
+| \                  | Databricks/Spark   | -   A processing   | \                  |
+|                    |                    |     engine         |                    |
+|                    |                    |     compatible     |                    |
+|                    |                    |     with Hadoop    |                    |
+|                    |                    |     and many other |                    |
+|                    |                    |     frameworks     |                    |
+|                    |                    | -   Support many   |                    |
+|                    |                    |     data storage   |                    |
+|                    |                    |     (HDFS, HBase,  |                    |
+|                    |                    |     Cassamdra,     |                    |
+|                    |                    |     Hive, etc.)    |                    |
+|                    |                    | -   Support batch  |                    |
+|                    |                    |     processing,    |                    |
+|                    |                    |     streaming,     |                    |
+|                    |                    |     interactive    |                    |
+|                    |                    |     queries, and   |                    |
+|                    |                    |     machine        |                    |
+|                    |                    |     learning       |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | Hortonworks        | \                  | \                  |
+| \                  | Hortonworks        | -   Provide        | \                  |
+|                    |                    |     enterprise-gra |                    |
+|                    |                    | de                 |                    |
+|                    |                    |     Hadoop system  |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | IBM BigInsights    | \                  | \                  |
+| \                  | IBM BigInsights    | -   Enterprise-gra | \                  |
+|                    |                    | de                 |                    |
+|                    |                    |     Hadoop system  |                    |
+|                    |                    | -   Additional     |                    |
+|                    |                    |     features (e.g. |                    |
+|                    |                    |     administrative |                    |
+|                    |                    | ,                  |                    |
+|                    |                    |     discovery,     |                    |
+|                    |                    |     provisioning,  |                    |
+|                    |                    |     security)      |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | Metascale          | \                  | \                  |
+| \                  | Metascale          | -   Enterprise-gra | \                  |
+|                    |                    | de                 |                    |
+|                    |                    |     Hadoop system  |                    |
+|                    |                    |     (on-premise)   |                    |
+|                    |                    | -   Modernize      |                    |
+|                    |                    |     Legacy systems |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | Microsoft HD       | \                  | \                  |
-|                    | Insight            |                    |                    |
+| \                  | Microsoft HD       | -   Hadoop-based   | -   No             |
+|                    | Insight            | -   Support        |     unstructured   |
+|                    |                    |     structured and |     data support   |
+|                    |                    |     semi-structure |                    |
+|                    |                    | d                  |                    |
+|                    |                    |     data           |                    |
+|                    |                    | -   Can integrate  |                    |
+|                    |                    |     on-premises    |                    |
+|                    |                    |     Hadoop         |                    |
+|                    |                    |     clusters       |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | Oracle Big Data    | \                  | \                  |
-|                    | Appliance          |                    |                    |
+| \                  | Oracle Big Data    | -   Use Cloudera   | -   Suitable for   |
+|                    | Appliance          |     Enterpirse     |     mid-sized      |
+|                    |                    |     Technology     |     companies, not |
+|                    |                    |     software       |     small ones.    |
+|                    |                    | -   Oracle NoSQL   |                    |
+|                    |                    |     datbases       |                    |
+|                    |                    | -   Comprehensive  |                    |
+|                    |                    |     security       |                    |
+|                    |                    |     features       |                    |
+|                    |                    | -   Multiple OS    |                    |
+|                    |                    |     choices        |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | Oracle Big Data    | \                  | \                  |
-|                    | Could              |                    |                    |
+| \                  | Oracle Big Data    | -   Infrastructure | -   Seem to        |
+|                    | Could              | -as-a-service      |     restrict data  |
+|                    |                    | -   Elastic        |     store to       |
+|                    |                    | -   Integrated     |     Oracle storage |
+|                    |                    |     security       |     cloud.         |
+|                    |                    | -   Integrated     |                    |
+|                    |                    |     storage        |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| A6                 | Stratio            | \                  | \                  |
+| A6                 | Stratio            | -   Spark-based    | \                  |
+|                    |                    | -   Open-source    |                    |
+|                    |                    | -   Enterprise-rea |                    |
+|                    |                    | dy                 |                    |
+|                    |                    | -   Integrate      |                    |
+|                    |                    |     with<span      |                    |
+|                    |                    |     class="Apple-c |                    |
+|                    |                    | onverted-space"> < |                    |
+|                    |                    | /span>             |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| B1                 | Logentries         | \                  | \                  |
+| B1                 | Logentries         | <span              | \                  |
+|                    |                    | class="Apple-conve |                    |
+|                    |                    | rted-space">       |                    |
+|                    |                    |  </span>           |                    |
 +--------------------+--------------------+--------------------+--------------------+
 | \                  | Loggly             | \                  | \                  |
 +--------------------+--------------------+--------------------+--------------------+
