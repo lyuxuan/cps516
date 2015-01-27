@@ -1,9 +1,9 @@
 +--------------------+--------------------+--------------------+--------------------+
 | Index              | System Name        | Strengths          | Weaknesses         |
 +--------------------+--------------------+--------------------+--------------------+
-| A1                 | -   Attivio        | -   Integrates     | Video searches     |
+| A1                 | Attivio            | -   Integrates     | Video searches     |
 |                    |                    |     structured     | relies on video    |
-|                    |                    |     data and       | metadata[3]           |
+|                    |                    |     data and       | metadata[3]        |
 |                    |                    |     unstructured   |                    |
 |                    |                    |     data in a      |                    |
 |                    |                    |     single index   |                    |
@@ -16,31 +16,32 @@
 |                    |                    |     single         |                    |
 |                    |                    |     index -\>      |                    |
 |                    |                    |     unified        |                    |
-|                    |                    |     access)       |                    |
+|                    |                    |     access)        |                    |
 |                    |                    | -   Support both   |                    |
 |                    |                    |     search Query   |                    |
-|                    |                    |     and SQL[1]        |                    |
+|                    |                    |     and SQL[1]     |                    |
 |                    |                    | -   Easy to        |                    |
-|                    |                    |     distribute[2]     |                    |
+|                    |                    |     distribute[2]  |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Elasticsearch  | -   Search engine  | -   Doesn’t        |
+| \                  | Elasticsearch      | -   Search engine  | -   Doesn’t        |
 |                    |                    |     that supports  |     support SQL    |
 |                    |                    |     full-text      | -   Doesn’t        |
 |                    |                    |     search         |     support        |
-|                    |                    |     (schema-free)  |     MapReduce[5]      |
+|                    |                    |     (schema-free)  |     MapReduce[5]   |
 |                    |                    | -   Distributed    |                    |
-|                    |                    |     architecture[4]   | \                  |
+|                    |                    |     architecture[4 | \                  |
+|                    |                    | ]                  |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   HP Autonomy    | -   Support        | \                  |
+| \                  | HP Autonomy        | -   Support        | \                  |
 |                    |                    |     structured     |                    |
 |                    |                    |     data and       |                    |
 |                    |                    |     unstructured   |                    |
-|                    |                    |     data[6]           |                    |
+|                    |                    |     data[6]        |                    |
 |                    |                    | -   Automatic and  |                    |
 |                    |                    |     real-time      |                    |
-|                    |                    |     processing[7]     |                    |
+|                    |                    |     processing[7]  |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Lucene/Solr    | -   Search engine  | -   Doesn’t        |
+| \                  | Lucene/Solr        | -   Search engine  | -   Doesn’t        |
 |                    |                    |     that supports  |     support SQL    |
 |                    |                    |     full-text      | -   Doesn’t        |
 |                    |                    |     search, hit    |     Support        |
@@ -53,12 +54,12 @@
 |                    |                    |     distribute     |                    |
 |                    |                    | -   Great          |                    |
 |                    |                    |     fault-toleranc |                    |
-|                    |                    | e[8]                  |                    |
+|                    |                    | e[8]               |                    |
 |                    |                    | -   Geo-spatial    |                    |
-|                    |                    |     search[9]         |                    |
+|                    |                    |     search[9]      |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Oracle Endeca  | -   Hybrid         | -   Stateless thus |
-|                    |     Server         |     search-analyti |     requires       |
+| \                  | Oracle Endeca      | -   Hybrid         | -   Stateless thus |
+|                    | Server             |     search-analyti |     requires       |
 |                    |                    | cal                |     complete query |
 |                    |                    | -   Support        |     for each       |
 |                    |                    |     structured and |     request        |
@@ -69,9 +70,9 @@
 |                    |                    |     (Index in      |                    |
 |                    |                    |     memory -\>     |                    |
 |                    |                    |     in-memory      |                    |
-|                    |                    |     analytics)[10]     |                    |
+|                    |                    |     analytics)[10] |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   SRCH2          | -   In-memory      | -   Commercial,    |
+| \                  | SRCH2              | -   In-memory      | -   Commercial,    |
 |                    |                    |     search (High   |     aims at        |
 |                    |                    |     performance)   |     enterprise     |
 |                    |                    | -   Seems to       |     search         |
@@ -81,11 +82,12 @@
 |                    |                    | -   Geo Search     |                    |
 |                    |                    | -   Runs on both   |                    |
 |                    |                    |     server and     |                    |
-|                    |                    |     mobile devices[11] |                    |
+|                    |                    |     mobile         |                    |
+|                    |                    |     devices[11]    |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| A2                 | -   Apache S4      | -   Real-time      | -   No guaranteed  |
+| A2                 | Apache S4          | -   Real-time      | -   No guaranteed  |
 |                    |                    |     processing     |     message        |
-|                    |                    |     (continues     |     processing[13]     |
+|                    |                    |     (continues     |     processing[13] |
 |                    |                    |     unbounded      |                    |
 |                    |                    |     streams of     |                    |
 |                    |                    |     data)          |                    |
@@ -93,16 +95,16 @@
 |                    |                    |     and scalable   |                    |
 |                    |                    | -   Fault-tolerant |                    |
 |                    |                    | -   Pluggable      |                    |
-|                    |                    |     platform[12]       |                    |
+|                    |                    |     platform[12]   |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Apache Storm   | -   Distributed    | \                  |
+| \                  | Apache Storm       | -   Distributed    | \                  |
 |                    |                    |     and real-time  |                    |
 |                    |                    | -   Fault-tolerant |                    |
 |                    |                    | -   Guaranteed     |                    |
 |                    |                    |     message        |                    |
 |                    |                    |     processing     |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   AWS Kinesis    | -   Support        | -   Data added to  |
+| \                  | AWS Kinesis        | -   Support        | -   Data added to  |
 |                    |                    |     real-time      |     a stream       |
 |                    |                    |     processing of  |     expires after  |
 |                    |                    |     streaming data |     24 hrs.        |
@@ -112,9 +114,9 @@
 |                    |                    |     single stream  |                    |
 |                    |                    | -   Fault—tolerant |                    |
 |                    |                    | -   Support        |                    |
-|                    |                    |     scaling[14]        |                    |
+|                    |                    |     scaling[14]    |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   DataTorrent    | -   Support        | \                  |
+| \                  | DataTorrent        | -   Support        | \                  |
 |                    |                    |     real-time      |                    |
 |                    |                    |     analytics      |                    |
 |                    |                    | -   Automatic      |                    |
@@ -122,9 +124,9 @@
 |                    |                    | -   Fault-tolerant |                    |
 |                    |                    | -   Guaranteed no  |                    |
 |                    |                    |     state/message  |                    |
-|                    |                    |     loss[15]           |                    |
+|                    |                    |     loss[15]       |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   FeedZai        | -   Real-time data | -   Run in cloud   |
+| \                  | FeedZai            | -   Real-time data | -   Run in cloud   |
 |                    |                    |     analysis       |                    |
 |                    |                    |     (behavioral    |                    |
 |                    |                    |     analysis)      |                    |
@@ -134,26 +136,27 @@
 |                    |                    |     on             |                    |
 |                    |                    |     machine-learni |                    |
 |                    |                    | ng                 |                    |
-|                    |                    |     algorithms[16]     |                    |
+|                    |                    |     algorithms[16] |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Google Cloud   | -   Support both   | \                  |
-|                    |     Dataflow       |     batch and      |                    |
+| \                  | Google Cloud       | -   Support both   | \                  |
+|                    | Dataflow           |     batch and      |                    |
 |                    |                    |     stream-based   |                    |
 |                    |                    |     data analysis  |                    |
 |                    |                    | -   Auto-scaling   |                    |
-|                    |                    | -   Fault-tolerant[17] |                    |
+|                    |                    | -   Fault-tolerant |                    |
+|                    |                    | [17]               |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Guavus         | -   Support        | -   Run            |
+| \                  | Guavus             | -   Support        | -   Run            |
 |                    |                    |     structured and |     on-premises    |
 |                    |                    |     unstructured   |                    |
 |                    |                    |     data, static   |                    |
 |                    |                    |     data and       |                    |
 |                    |                    |     dynamic data   |                    |
 |                    |                    | -   Streaming      |                    |
-|                    |                    |     analysis[18]       |                    |
+|                    |                    |     analysis[18]   |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   IBM InfoSphere | -   Real-time      | -   Run in cloud   |
-|                    |     Streams        |     analysis       |                    |
+| \                  | IBM InfoSphere     | -   Real-time      | -   Run in cloud   |
+|                    | Streams            |     analysis       |                    |
 |                    |                    | -   Scalable       |                    |
 |                    |                    | -   Support both   |                    |
 |                    |                    |     relational and |                    |
@@ -161,37 +164,38 @@
 |                    |                    |     data types     |                    |
 |                    |                    | -   Support event  |                    |
 |                    |                    |     stream         |                    |
-|                    |                    |     processing[19]     |                    |
+|                    |                    |     processing[19] |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Lokad          | \                  | -   Have to use    |
+| \                  | Lokad              | \                  | -   Have to use    |
 |                    |                    |                    |     Windows Azure  |
-|                    |                    |                    |     Platform?[20]      |
+|                    |                    |                    |     Platform?[20]  |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Software AG    | -   Support        | -   Run in cloud   |
+| \                  | Software AG        | -   Support        | -   Run in cloud   |
 |                    |                    |     streaming      |                    |
 |                    |                    |     analytics      |                    |
 |                    |                    | -   Cached static  |                    |
-|                    |                    |     data[21]           |                    |
+|                    |                    |     data[21]       |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   SQLStream      | -   Streaming      | \                  |
+| \                  | SQLStream          | -   Streaming      | \                  |
 |                    |                    |     processing     |                    |
-|                    |                    | -   Support SQL[22]    |                    |
+|                    |                    | -   Support        |                    |
+|                    |                    |     SQL[22]        |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   TIBCO          | -   Push-based     | -   Run in cloud[24]   |
-|                    |     StreamBase     |     real-time      |                    |
+| \                  | TIBCO StreamBase   | -   Push-based     | -   Run in         |
+|                    |                    |     real-time      |     cloud[24]      |
 |                    |                    |     Analytics      |                    |
-|                    |                    | -   Scalable[23]       |                    |
+|                    |                    | -   Scalable[23]   |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| A3                 | -   Altiscale      | -   Hadoop-as-a-se | -   Use            |
+| A3                 | Altiscale          | -   Hadoop-as-a-se | -   Use            |
 |                    |                    | rvice              |     virtualization |
 |                    |                    | -   Use private    | -similar           |
 |                    |                    |     hardware       |     technique      |
 |                    |                    |     rather than    |     which may harm |
 |                    |                    |     could services |     the            |
-|                    |                    |     like EC2 -\>   |     performance[25]    |
-|                    |                    |     Optimization   |                    |
+|                    |                    |     like EC2 -\>   |     performance[25 |
+|                    |                    |     Optimization   | ]                  |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Infochimps     | -   Streaming data | \                  |
+| \                  | Infochimps         | -   Streaming data | \                  |
 |                    |                    |     and real-time  |                    |
 |                    |                    |     analytics      |                    |
 |                    |                    | -   NoSQL database |                    |
@@ -203,23 +207,23 @@
 |                    |                    | -   Batch          |                    |
 |                    |                    |     analytics      |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Metamarkets    | -   Real-time      | \                  |
+| \                  | Metamarkets        | -   Real-time      | \                  |
 |                    |                    |     analytics      |                    |
 |                    |                    | -   Two separate   |                    |
 |                    |                    |     data           |                    |
 |                    |                    |     pipelines, one |                    |
 |                    |                    |     on Storm and   |                    |
 |                    |                    |     one on Hadoop  |                    |
-|                    |                    |     Map/Reduce[26]     |                    |
+|                    |                    |     Map/Reduce[26] |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Mortar Data    | -   Hadoop-as-a-se | -   Only support   |
+| \                  | Mortar Data        | -   Hadoop-as-a-se | -   Only support   |
 |                    |                    | rvice              |     data store on  |
 |                    |                    | -   Support        |     in Amazon Web  |
 |                    |                    |     datasets       |     Services for   |
 |                    |                    |     sharing        |     sharing        |
-|                    |                    |                    |     feature[27]        |
+|                    |                    |                    |     feature[27]    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Qubole         | -   Hadoop-as-a-se | \                  |
+| \                  | Qubole             | -   Hadoop-as-a-se | \                  |
 |                    |                    | rvice              |                    |
 |                    |                    | -   Scale as       |                    |
 |                    |                    |     demand         |                    |
@@ -231,7 +235,7 @@
 |                    |                    |     unstructured   |                    |
 |                    |                    |     data           |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Rackspace      | -   Hadoop-as-a-se | -   Considerable   |
+| \                  | Rackspace          | -   Hadoop-as-a-se | -   Considerable   |
 |                    |                    | rvice              |     variance in    |
 |                    |                    | -   Public cloud   |     performance    |
 |                    |                    |     provider -\>   |                    |
@@ -239,24 +243,26 @@
 |                    |                    |     deployment and |                    |
 |                    |                    |     maintenance    |                    |
 |                    |                    | -   Built on top   |                    |
-|                    |                    |     of OpenStack[28[   |                    |
+|                    |                    |     of             |                    |
+|                    |                    |     OpenStack[28]  |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Savvis         | -   Hadoop-based   | -   Use Cloudera   |
+| \                  | Savvis             | -   Hadoop-based   | -   Use Cloudera   |
 |                    |                    | -   Infrastructure |                    |
 |                    |                    | -as-a-service      |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Softlayer      | -   Hadoop-based   | -   Use Cloudera   |
+| \                  | Softlayer          | -   Hadoop-based   | -   Use Cloudera   |
 |                    |                    | -   Infrasructure- |                    |
 |                    |                    | as-a-service       |                    |
 |                    |                    | -   On-demand      |                    |
 |                    |                    |     deployment and |                    |
-|                    |                    |     scalability[29]    |                    |
+|                    |                    |     scalability[29 |                    |
+|                    |                    | ]                  |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   T-Systems      | -   Hadoop-as-a-se | -   Infrastructure |
+| \                  | T-Systems          | -   Hadoop-as-a-se | -   Infrastructure |
 |                    |                    | rvice              |     provided by    |
-|                    |                    |                    |     Cloudera?[30]      |
+|                    |                    |                    |     Cloudera?[30]  |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Verizon        | -   Offer          | -   Built upon     |
+| \                  | Verizon            | -   Offer          | -   Built upon     |
 |                    |                    |     Cloudera’s     |     Cloudera?      |
 |                    |                    |     platform-as a  |                    |
 |                    |                    |     service        |                    |
@@ -265,9 +271,10 @@
 |                    |                    |     analytic data  |                    |
 |                    |                    |     management     |                    |
 |                    |                    |     powered by     |                    |
-|                    |                    |     Apache Hadoop)[31] |                    |
+|                    |                    |     Apache         |                    |
+|                    |                    |     Hadoop)[31]    |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   xPlenty        | -   Hadoop-as-a-se | -   Do not support |
+| \                  | xPlenty            | -   Hadoop-as-a-se | -   Do not support |
 |                    |                    | rvice              |     completely     |
 |                    |                    | -   Support        |     unstructured   |
 |                    |                    |     structured and |     data?          |
@@ -276,9 +283,10 @@
 |                    |                    |     data analytics |                    |
 |                    |                    | -   Flexible with  |                    |
 |                    |                    |     the data store |                    |
-|                    |                    |     customer uses[32]  |                    |
+|                    |                    |     customer       |                    |
+|                    |                    |     uses[32]       |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| A4                 | -   AWS EMR        | -   Use Hadoop     | -   Only integrate |
+| A4                 | AWS EMR            | -   Use Hadoop     | -   Only integrate |
 |                    |                    |     managed        |     with AWS       |
 |                    |                    |     cluster        |     available      |
 |                    |                    | -   Integration    |     services       |
@@ -286,10 +294,10 @@
 |                    |                    |     services       |                    |
 |                    |                    | -   Scaling of     |                    |
 |                    |                    |     virtual        |                    |
-|                    |                    |     servers[33]        |                    |
+|                    |                    |     servers[33]    |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Google Compute | -   Infrastructure | -   Hard to move   |
-|                    |     Engine         | -as-a-service      |     to other       |
+| \                  | Google Compute     | -   Infrastructure | -   Hard to move   |
+|                    | Engine             | -as-a-service      |     to other       |
 |                    |                    | -   Run on         |     providers      |
 |                    |                    |     google’s       |                    |
 |                    |                    |     infrastructure |                    |
@@ -303,9 +311,10 @@
 |                    |                    |     services are   |                    |
 |                    |                    |     all available  |                    |
 |                    |                    |     in an          |                    |
-|                    |                    |     integrated way[34] |                    |
+|                    |                    |     integrated     |                    |
+|                    |                    |     way[34]        |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   MapR           | -   Provide        | \                  |
+| \                  | MapR               | -   Provide        | \                  |
 |                    |                    |     complete       |                    |
 |                    |                    |     distribution   |                    |
 |                    |                    |     for Hadoop     |                    |
@@ -315,24 +324,25 @@
 |                    |                    |     that ensures   |                    |
 |                    |                    |     best           |                    |
 |                    |                    |     performance.   |                    |
-|                    |                    | -   Open-source[35]    |                    |
+|                    |                    | -   Open-source[35 |                    |
+|                    |                    | ]                  |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Treasure Data  | -   Near-realtime  | \                  |
+| \                  | Treasure Data      | -   Near-realtime  | \                  |
 |                    |                    |     data           |                    |
 |                    |                    |     collection,    |                    |
 |                    |                    |     storage and    |                    |
 |                    |                    |     analysis       |                    |
 |                    |                    |     service.       |                    |
 |                    |                    | -   Infrastructure |                    |
-|                    |                    | -as-a-service[36]      |                    |
+|                    |                    | -as-a-service[36]  |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Zettaset       | -   Hadoop-as-a-se | \                  |
+| \                  | Zettaset           | -   Hadoop-as-a-se | \                  |
 |                    |                    | rvice              |                    |
 |                    |                    | -   Enterprise-Cla |                    |
 |                    |                    | ss                 |                    |
-|                    |                    |     Security[37]�      |                    |
+|                    |                    |     Security [37]  |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| A5                 | -   Cloudera       | -   Provide        | \                  |
+| A5                 | Cloudera           | -   Provide        | \                  |
 |                    |                    |     enterprise     |                    |
 |                    |                    |     processing,    |                    |
 |                    |                    |     storage,       |                    |
@@ -341,10 +351,11 @@
 |                    |                    |     one system     |                    |
 |                    |                    | -   Massive        |                    |
 |                    |                    |     scalable       |                    |
-|                    |                    | -   Hadoop-based[38]   |                    |
+|                    |                    | -   Hadoop-based[3 |                    |
+|                    |                    | 8]                 |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Databricks/Spa | -   A processing   | \                  |
-|                    | rk                 |     engine         |                    |
+| \                  | Databricks/Spark   | -   A processing   | \                  |
+|                    |                    |     engine         |                    |
 |                    |                    |     compatible     |                    |
 |                    |                    |     with Hadoop    |                    |
 |                    |                    |     and many other |                    |
@@ -360,15 +371,15 @@
 |                    |                    |     interactive    |                    |
 |                    |                    |     queries, and   |                    |
 |                    |                    |     machine        |                    |
-|                    |                    |     learning[39]       |                    |
+|                    |                    |     learning[39]   |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Hortonworks    | -   Provide        | \                  |
+| \                  | Hortonworks        | -   Provide        | \                  |
 |                    |                    |     enterprise-gra |                    |
 |                    |                    | de                 |                    |
 |                    |                    |     Hadoop system  |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   IBM            | -   Enterprise-gra | \                  |
-|                    |     BigInsights    | de                 |                    |
+| \                  | IBM BigInsights    | -   Enterprise-gra | \                  |
+|                    |                    | de                 |                    |
 |                    |                    |     Hadoop system  |                    |
 |                    |                    | -   Additional     |                    |
 |                    |                    |     features (e.g. |                    |
@@ -376,17 +387,18 @@
 |                    |                    | ,                  |                    |
 |                    |                    |     discovery,     |                    |
 |                    |                    |     provisioning,  |                    |
-|                    |                    |     security)[40]      |                    |
+|                    |                    |     security)[40]  |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Metascale      | -   Enterprise-gra | \                  |
+| \                  | Metascale          | -   Enterprise-gra | \                  |
 |                    |                    | de                 |                    |
 |                    |                    |     Hadoop system  |                    |
 |                    |                    |     (on-premise)   |                    |
 |                    |                    | -   Modernize      |                    |
-|                    |                    |     Legacy systems[41] |                    |
+|                    |                    |     Legacy         |                    |
+|                    |                    |     systems[41]    |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Microsoft HD   | -   Hadoop-based   | -   No             |
-|                    |     Insight        | -   Support        |     unstructured   |
+| \                  | Microsoft HD       | -   Hadoop-based   | -   No             |
+|                    | Insight            | -   Support        |     unstructured   |
 |                    |                    |     structured and |     data support   |
 |                    |                    |     semi-structure |                    |
 |                    |                    | d                  |                    |
@@ -394,10 +406,10 @@
 |                    |                    | -   Can integrate  |                    |
 |                    |                    |     on-premises    |                    |
 |                    |                    |     Hadoop         |                    |
-|                    |                    |     clusters[42]       |                    |
+|                    |                    |     clusters[42]   |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Oracle Big     | -   Use Cloudera   | -   Suitable for   |
-|                    |     Data Appliance |     Enterpirse     |     mid-sized      |
+| \                  | Oracle Big Data    | -   Use Cloudera   | -   Suitable for   |
+|                    | Appliance          |     Enterpirse     |     mid-sized      |
 |                    |                    |     Technology     |     companies, not |
 |                    |                    |     software       |     small ones.    |
 |                    |                    | -   Oracle NoSQL   |                    |
@@ -406,33 +418,34 @@
 |                    |                    |     security       |                    |
 |                    |                    |     features       |                    |
 |                    |                    | -   Multiple OS    |                    |
-|                    |                    |     choices[43]        |                    |
+|                    |                    |     choices[43]    |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Oracle Big     | -   Infrastructure | -   Seem to        |
-|                    |     Data Could     | -as-a-service      |     restrict data  |
+| \                  | Oracle Big Data    | -   Infrastructure | -   Seem to        |
+|                    | Could              | -as-a-service      |     restrict data  |
 |                    |                    | -   Elastic        |     store to       |
 |                    |                    | -   Integrated     |     Oracle storage |
 |                    |                    |     security       |     cloud.         |
 |                    |                    | -   Integrated     |                    |
-|                    |                    |     storage        |                    |
+|                    |                    |     storage[44]    |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| A6                 | -   Stratio        | -   Spark-based    | \                  |
+| A6                 | Stratio            | -   Spark-based    | \                  |
 |                    |                    | -   Open-source    |                    |
 |                    |                    | -   Enterprise-rea |                    |
 |                    |                    | dy                 |                    |
 |                    |                    | -   Integrate with |                    |
 |                    |                    |     main NoSQL     |                    |
-|                    |                    |     databases[44]      |                    |
+|                    |                    |     databases[45]  |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| B1                 | -   Logentries     | -   Centralize,    | \                  |
+| B1                 | Logentries         | -   Centralize,    | \                  |
 |                    |                    |     search and     |                    |
 |                    |                    |     analyze logs   |                    |
 |                    |                    | -   Anomaly        |                    |
 |                    |                    |     detection      |                    |
 |                    |                    | -   Log is         |                    |
-|                    |                    |     archived on S3[45] |                    |
+|                    |                    |     archived on    |                    |
+|                    |                    |     S3[46]         |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Loggly         | -   Log-management | \                  |
+| \                  | Loggly             | -   Log-management | \                  |
 |                    |                    | -   Scalable       |                    |
 |                    |                    |     (hybrid of AWS |                    |
 |                    |                    |     and their own  |                    |
@@ -442,9 +455,9 @@
 |                    |                    | -   Collect data   |                    |
 |                    |                    |     through        |                    |
 |                    |                    |     existing open  |                    |
-|                    |                    |     standards[46]      |                    |
+|                    |                    |     standards[47]  |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   Sumo Logic     | -   Collect,       | \                  |
+| \                  | Sumo Logic         | -   Collect,       | \                  |
 |                    |                    |     centralize,    |                    |
 |                    |                    |     search and     |                    |
 |                    |                    |     analyze logs   |                    |
@@ -455,13 +468,13 @@
 |                    |                    | -   Hosted         |                    |
 |                    |                    |     collection can |                    |
 |                    |                    |     be on-premise  |                    |
-|                    |                    |     or from S3[47]     |                    |
+|                    |                    |     or from S3[48] |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | -   TIBCO LogLogic | -   Log data       | \                  |
+| \                  | TIBCO LogLogic     | -   Log data       | \                  |
 |                    |                    |     management     |                    |
 |                    |                    | -   Visual         |                    |
 |                    |                    |     analytics      |                    |
-|                    |                    | -   Compliance[48]     |                    |
+|                    |                    | -   Compliance[49] |                    |
 +--------------------+--------------------+--------------------+--------------------+
 | B2                 | ArangoDB           | -   Support        | -   Use ArangoDB   |
 |                    |                    |     multi-model    |     Query language |
@@ -472,10 +485,10 @@
 |                    |                    | -   Use SQL-like   |                    |
 |                    |                    |     query language |                    |
 |                    |                    |     or JavaScript  |                    |
-|                    |                    |     extensions[49]     |                    |
+|                    |                    |     extensions[50] |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| \                  | Azure Search       | -   Search-as-a-service[50]  | \                  |
-|                    |                    |             |                    |
+| \                  | Azure Search       | -   Search-as-a-se | \                  |
+|                    |                    | rvice[51]          |                    |
 +--------------------+--------------------+--------------------+--------------------+
 | \                  | CortexDB           | -   Support        | \                  |
 |                    |                    |     multi-model    |                    |
@@ -488,7 +501,7 @@
 |                    |                    |     transaction    |                    |
 |                    |                    |     time and       |                    |
 |                    |                    |     ignore the     |                    |
-|                    |                    |     validity[51]       |                    |
+|                    |                    |     validity[52]   |                    |
 +--------------------+--------------------+--------------------+--------------------+
 | \                  | IBM InfoSphere     | \                  | \                  |
 |                    | Data Explorer      |                    |                    |
@@ -924,105 +937,209 @@ References:
 
 1.http://en.wikipedia.org/wiki/Attivio
 
+\
+
 2.http://www.itbusinessedge.com/blogs/it-unmasked/attivio-applies-predictive-analytics-to-indexed-data.html
+
+\
 
 3.http://arnoldit.com/wordpress/2010/11/02/attivio-upping-its-profile/
 
+\
+
 4.http://www.techworld.com/news/security/attackers-install-ddos-bots-on-amazon-cloud-exploiting-elasticsearch-weakness-3533164/
+
+\
 
 5.http://db-engines.com/en/system/Elasticsearch
 
-6.http://en.wikipedia.org/wiki/HP\_Autonomy
+\
+
+6.http://en.wikipedia.org/wiki/HP\\\_Autonomy
+
+\
 
 7.http://www.autonomy.com/technology/
 
+\
+
 8.http://lucene.apache.org/solr/features.html
 
-9.http://en.wikipedia.org/wiki/Apache\_Solr
+\
 
-10.https://docs.oracle.com/cd/E40521\_01/server.761/es\_dev/src/cdg\_interfaces\_mdex\_overview.html
+9.http://en.wikipedia.org/wiki/Apache\\\_Solr
+
+\
+
+10.https://docs.oracle.com/cd/E40521\\\_01/server.761/es\\\_dev/src/cdg\\\_interfaces\\\_mdex\\\_overview.html
+
+\
 
 11.http://srch2.com/releases/4.4.3/docs/
 
+\
+
 12.http://incubator.apache.org/s4/doc/0.6.0/overview/
+
+\
 
 13.http://www.quora.com/How-does-BackType-Twitter-Storm-compare-to-Yahoos-S4-and-IBMs-InfoSphere-Streams
 
+\
+
 14.http://venturebeat.com/2014/03/20/why-amazon-created-aws-kinesis-its-live-data-processing-service/
+
+\
 
 15.https://www.datatorrent.com/product/features
 
+\
+
 16.http://www.forbes.com/sites/tomgroenfeldt/2014/02/03/feedzai-brings-machine-learning-and-data-science-to-payment-fraud/
+
+\
 
 17.https://cloud.google.com/dataflow/
 
+\
+
 18.http://www.guavus.com/products/
+
+\
 
 19.http://www.slideshare.net/IBMInfoSphereUGFR/infosphere-streams-technical-overview-use-cases-big-data-jerome-chailloux
 
+\
+
 20.http://blog.lokad.com/journal/2010/6/23/honored-by-the-windows-azure-partner-award-of-2010.html
 
-21.http://www.softwareag.com/corporate/products/apama\_webmethods/analytics/overview/default.asp
+\
+
+21.http://www.softwareag.com/corporate/products/apama\\\_webmethods/analytics/overview/default.asp
+
+\
 
 22.http://en.wikipedia.org/wiki/Sqlstream
 
+\
+
 23.http://www.streambase.com/news-and-events/press-releases/pr-2013/tibco-software-acquires-streambase-systems/
+
+\
 
 24.https://www.jkoolcloud.com/wp-content/uploads/jKool-451ResearchGroup.pdf
 
+\
+
 25.http://www.semantikoz.com/blog/full-metal-hadoop-as-a-service-with-altiscale/
+
+\
 
 26.https://metamarkets.com/2014/building-a-data-pipeline-that-handles-billions-of-events-in-real-time/
 
+\
+
 27.https://gigaom.com/2012/11/28/mortar-data-wants-to-become-a-hadoop-developers-best-friend/
+
+\
 
 28.http://www.scriptrock.com/articles/azure-vs-rackspace
 
+\
+
 29.http://www.ibm.com/cloud-computing/us/en/iaas.html
+
+\
 
 30.http://www.telekom.com/media/enterprise-solutions/181200
 
+\
+
 31.http://www.verizon.com/about/news/verizon-adds-clouderas-cloudbased-big-data-analytics-solution-verizon-cloud-ecosystem/
+
+\
 
 32.https://devcenter.heroku.com/articles/xplenty
 
+\
+
 33.http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-what-is-emr.html
+
+\
 
 34.https://cloud.google.com/why-google/
 
+\
+
 35.https://www.mapr.com/why-hadoop/why-mapr
+
+\
 
 36.http://www.ipso-alliance.org/june-17-2014-treasure-data-catches-the-eyes-of-ad-tech-market-with-first-flexible-cloud-data-service-2
 
+\
+
 37.http://www.zettaset.com/index.php/solutions/secure-enrterprise-hadoop/
+
+\
 
 38.http://www.cloudera.com/content/cloudera/en/products-and-services/cloudera-enterprise.html
 
+\
+
 39.https://spark.apache.org/faq.html
+
+\
 
 40.http://www-01.ibm.com/software/data/infosphere/biginsights/quick-start/
 
-41.http://www.metascale.com/what-we-offer.html\#.VMbvoXDF\_XE
+\
+
+41.http://www.metascale.com/what-we-offer.html\\\#.VMbvoXDF\\\_XE
+
+\
 
 42.http://azure.microsoft.com/en-us/services/hdinsight/
 
+\
+
 43.https://www.oracle.com/engineered-systems/big-data-appliance/index.html
+
+\
 
 44.http://www.stratio.com/
 
-45.https://logentries.com/product/anomaly-detection/
+\
 
-46.https://www.loggly.com/why-loggly/
+45.https://cloud.oracle.com/bigdata
 
-47.http://www.sumologic.com/product/capabilities/
+\
 
-48.http://www.tibco.com/products/event-processing/loglogic-for-machine-data/machine-data-management
+46.https://logentries.com/product/anomaly-detection/
 
-49.https://www.arangodb.com/
+\
 
-50.http://azure.microsoft.com/en-us/services/search/
+47.https://www.loggly.com/why-loggly/
 
-51.http://www.odbms.org/2014/04/cortexdb/
+\
+
+48.http://www.sumologic.com/product/capabilities/
+
+\
+
+49.http://www.tibco.com/products/event-processing/loglogic-for-machine-data/machine-data-management
+
+\
+
+50.https://www.arangodb.com/
+
+\
+
+51.http://azure.microsoft.com/en-us/services/search/
+
+\
+
+52.http://www.odbms.org/2014/04/cortexdb/
 
 \
 
